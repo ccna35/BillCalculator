@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #dadada
+}
+
+.container {
+  padding: 10px;
+  width: 70%;
+  height: 40%;
+  background: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid grey;
+}
+
+hr {
+  width: 100%;
+}
+
+.container div:not(.select-tip) {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.select-tip {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column
+}
+
+.select-tip input {
+  width: 100%;
+  height: 50px;
+}
+
+.bill input {
+  line-height: 1.5;
+  background: whitesmoke;
+  border-radius: 3px;
+  border: 1px solid lightslategray;
+  box-shadow: 0px 1px 1px inset grey;
+  padding: 5px;
+}
+
+.total p{
+  font-weight: bold;
+}
