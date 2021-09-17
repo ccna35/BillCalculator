@@ -14,5 +14,4 @@ function update(){
     total.textContent = `$${tip_value*parseFloat(bill.value)+parseFloat(bill.value)}`
   }
 }
-
 container.addEventListener('input', update);
