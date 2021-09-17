@@ -5,7 +5,7 @@ let tip = document.querySelector('#tip');
 let tip_dollars = document.querySelector('#tipInDollars');
 let total = document.querySelector('#total');
 
-
+if (bill.value != parseFloat())
 function update(){
   let tip_value = parseFloat(slider.value)/100;
   tip.textContent = `${slider.value}%`;
