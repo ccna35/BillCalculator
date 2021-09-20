@@ -60,6 +60,10 @@ hr {
   padding: 5px;
 }
 
+.bill input:focus {
+  border: none;
+}
+
 .total p{
   font-weight: bold;
 }
